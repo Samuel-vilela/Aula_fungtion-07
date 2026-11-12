@@ -20,6 +20,7 @@ fnmediaAluno("João", 8, 7, 9)
 
 
 function fnDiferenca(num1, num2) {
+    
     let diferenca = num1 - num2
     console.log("A diferença entre " + num1 + " e " + num2 + " é: " + diferenca)
 } 
@@ -33,6 +34,7 @@ fnDiferenca(10, 5)
 function fnTabuada(numero) {
     console.log("Tabuada do " + numero + ":")
     for (let i = 1; i <= 10; i++) {
+
         let resultado = numero * i
         console.log(numero + " x " + i + " = " + resultado)
     }
@@ -49,6 +51,7 @@ function fnfaxetaria(idade){
         console.log("Criança")
     }else if (idade >= 12 && idade <= 17) {
         console.log("Adolescente")
+
 } else if (idade >= 18 && idade <= 59) {
         console.log("Adulto")
     } else{
@@ -77,6 +80,7 @@ fnAreaRetangulo(5, 10)
 
 function fnContagem(numero) {
     for (let i = numero; i >= 0; i--) {
+
         console.log(i)
     }
 }  
@@ -89,12 +93,14 @@ fnContagem(5)
 
 function fnSalario(salario){
     if (salario < 1000) {
+
         let novoSalario = salario + 1.2
         console.log("Novo salário: R$ " + novoSalario.toFixed(2))
     } else if (salario >= 1000 && salario <= 2000) {
         let novoSalario = salario * 1.15
         console.log("Novo salário: R$ " + novoSalario.toFixed(2))
     } else {
+
         let novoSalario = salario * 1.1
         console.log("Novo salário: R$ " + novoSalario.toFixed(2))
     }
