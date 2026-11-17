@@ -7,6 +7,7 @@
 function fnmediaAluno(nome, nota1, nota2, nota3) {
 
     let media = (nota1 + nota2 + nota3) / 3
+
     if (media >= 7) {
         console.log("Parabéns " + nome + "! Você foi aprovado com média: " + media)
     } else {
@@ -32,6 +33,7 @@ fnDiferenca(10, 5)
 
 
 function fnTabuada(numero) {
+
     console.log("Tabuada do " + numero + ":")
     for (let i = 1; i <= 10; i++) {
 
@@ -178,6 +180,7 @@ fnSomaNumeros(5)
 function fnDesconto(valorProduto, percentualDesconto = 10) {
     let valorDesconto = (valorProduto * percentualDesconto) / 100
     let precoFinal = valorProduto - valorDesconto
+    
     console.log("Valor do desconto: R$ " + valorDesconto.toFixed(2))
     console.log("Preço final do produto: R$ " + precoFinal.toFixed(2))
 } 
@@ -283,6 +286,7 @@ fnClassificacaoNota(8);
 
 // 18. Crie uma função que receba um número e exiba o seu quadrado.
 function fnQuadrado(numero) {
+
     const quadrado = numero * numero;
     console.log("O quadrado de " + numero + " é: " + quadrado);
 }
